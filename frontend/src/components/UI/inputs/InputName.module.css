@@ -1,0 +1,33 @@
+.inputUsername {
+    position: absolute;
+    width: 557px;
+    height: 93px;
+    left: 150px;
+    top: 267px;
+
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    ont-family: Apercu Arabic Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+
+
+    color: #2D2D2D;
+}
+
+::placeholder {
+    padding-left: 30px;
+}
+.error_msg_style {
+    position: absolute;
+    width: 557px;
+    height: 93px;
+    left: 150px;
+    top: 367px;
+    color: red;
+}

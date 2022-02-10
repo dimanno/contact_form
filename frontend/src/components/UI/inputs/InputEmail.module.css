@@ -1,0 +1,31 @@
+.inputEmail {
+    position: absolute;
+    width: 557px;
+    height: 93px;
+    left: 150px;
+    top: 400px;
+
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: Apercu Arabic Pro, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #2D2D2D;
+}
+
+::placeholder {
+    padding-left: 30px;
+}
+.error_msg_style {
+    position: absolute;
+    width: 300px;
+    height: 32px;
+    left: 150px;
+    top: 500px;
+    color: red;
+}

@@ -1,0 +1,7 @@
+.messageBox {
+    display: flex;
+    background: beige;
+    border: red;
+    margin: 10px;
+    justify-content: space-between;
+}

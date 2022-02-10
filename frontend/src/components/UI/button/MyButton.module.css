@@ -1,0 +1,30 @@
+.myBtn {
+    position: absolute;
+    width: 218px;
+    height: 73px;
+    left: 150px;
+    top: 695px;
+    cursor: pointer;
+    background: #FAD34F;
+    border: 0 #FAD34F;
+    border-radius: 500px;
+
+    font-family: Apercu Arabic Pro, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF
+
+}
+
+.text {
+    position: absolute;
+    width: 114px;
+    height: 18px;
+    left: 202px;
+    top: 708px;
+
+}

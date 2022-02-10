@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-flow: column;
+}
+.title {
+    position: absolute;
+    width: 563px;
+    height: 58px;
+    left: 147px;
+    top: 179px;
+
+    font-family: Apercu Arabic Pro, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+
+
+    color: #3E3E3E;
+
+}

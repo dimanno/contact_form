@@ -1,0 +1,46 @@
+version: "3.7"
+
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+    env_file:
+      - .development.env
+    restart: on-failure
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    ports:
+      - "5001:5000"
+    command: npm run start:dev
+    depends_on:
+      - postgres
+  postgres:
+    container_name: postgres
+    image: postgres:12
+    env_file:
+      - .development.env
+    environment:
+      PG_DATA: /var/lid/postgresql/data
+    ports:
+      - "5431:5432"
+    volumes:
+      - pgdata:/var/lid/postgresql/data
+    restart: on-failure
+  web:
+    image: nginx:alpine
+    ports:
+      - "81:80"
+    restart: on-failure
+    volumes:
+      - .client:/usr/share/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+
+volumes:
+  pgdata:
+
+
+
+      
+
